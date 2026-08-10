@@ -59,3 +59,56 @@ Status: SUCCESS (200 OK)
 Execution Time: 0.002 sec
 Memory Overhead: < 128 KB
 Rows Returned: 5
+
+| SubscriptionId | CustomerId | PlanType | Status | CreatedAt |
+| :--- | :--- | :--- | :--- | :--- |
+| SUB-1001 | CUST-8841 | Enterprise | Active | 2026-01-12 |
+| SUB-1002 | CUST-2049 | Basic | Active | 2026-01-14 |
+| SUB-1003 | CUST-7312 | Pro | Paused | 2026-01-15 |
+| SUB-1004 | CUST-9021 | Enterprise | Active | 2026-01-18 |
+| SUB-1005 | CUST-3310 | Basic | Cancelled | 2026-01-20 |
+
+
+```markdown
+##  Repository Structure & Directory Layout
+
+```text
+sql-saas-usersubscriptions-schema-audit/
+├── README.md
+├── LICENSE
+├── src/
+│   └── schema_audit.sql
+├── docs/
+│   └── README.pdf
+└── benchmarks/
+    └── execution_log.txt
+
+
+```markdown
+##  Step-by-Step Deployment & Execution Guide
+
+```bash
+# Clone repository from Elsamag GitHub
+git clone
+```bash https://github.com/Elsamag/sql-saas-usersubscriptions-schema-audit.git
+```
+# Step 2:Navigate to sql directory
+```bash
+cd sql-saas-usersubscriptions-schema-audit
+```
+# Execute SQL audit script in target PostgreSQL environment
+```bash
+psql -h localhost -U audit_user -d cloudguard_saas -f src/schema_audit.sql
+```
+
+---
+
+> ### 💼 Enterprise Consultation & Retainer Inquiries
+>
+> **Need Custom Database Optimization & Analytics Infrastructure?**
+> 
+> **Elsamag IT Solutions** provides enterprise database optimization, automated reporting pipeline design, and high-performance SQL query tuning.
+>
+> * **Lead Technical Consultant:** Samuel Chinwendu Agu
+> * **GitHub Profile:** [github.com/Elsamag](https://github.com/Elsamag)
+> * **Direct Engagement:** Reach out via GitHub or Upwork for retainer inquiries, custom architecture audits, and database optimization contracts.
