@@ -71,7 +71,6 @@ Rows Returned: 5
 
 
 
-```
 ##  Repository Structure & Directory Layout
 
 ```text
