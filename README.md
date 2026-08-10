@@ -68,8 +68,9 @@ Rows Returned: 5
 | SUB-1004 | CUST-9021 | Enterprise | Active | 2026-01-18 |
 | SUB-1005 | CUST-3310 | Basic | Cancelled | 2026-01-20 |
 
+___
 
-```markdown
+```
 ##  Repository Structure & Directory Layout
 
 ```text
@@ -83,6 +84,7 @@ sql-saas-usersubscriptions-schema-audit/
 └── benchmarks/
     └── execution_log.txt
 
+___
 
 ```markdown
 ##  Step-by-Step Deployment & Execution Guide
