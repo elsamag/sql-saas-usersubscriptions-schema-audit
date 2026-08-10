@@ -60,6 +60,7 @@ Execution Time: 0.002 sec
 Memory Overhead: < 128 KB
 Rows Returned: 5
 
+```
 | SubscriptionId | CustomerId | PlanType | Status | CreatedAt |
 | :--- | :--- | :--- | :--- | :--- |
 | SUB-1001 | CUST-8841 | Enterprise | Active | 2026-01-12 |
