@@ -89,7 +89,7 @@ sql-saas-usersubscriptions-schema-audit/
 ```
 ##  Step-by-Step Deployment & Execution Guide
 
-### Clone repository from Elsamag GitHub
+### Step 1:Clone repository from Elsamag GitHub
 ```bash
 git clone https://github.com/Elsamag/sql-saas-usersubscriptions-schema-audit.git
 ```
@@ -97,7 +97,7 @@ git clone https://github.com/Elsamag/sql-saas-usersubscriptions-schema-audit.git
 ```bash
 cd sql-saas-usersubscriptions-schema-audit
 ```
-### Execute SQL audit script in target PostgreSQL environment
+### Step 3:Execute SQL audit script in target PostgreSQL environment
 ```bash
 psql -h localhost -U audit_user -d cloudguard_saas -f src/schema_audit.sql
 ```
