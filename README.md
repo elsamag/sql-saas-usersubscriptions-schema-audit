@@ -90,8 +90,8 @@ sql-saas-usersubscriptions-schema-audit/
 ##  Step-by-Step Deployment & Execution Guide
 
 # Clone repository from Elsamag GitHub
-git clone
-```bash https://github.com/Elsamag/sql-saas-usersubscriptions-schema-audit.git
+```bash
+git clone https://github.com/Elsamag/sql-saas-usersubscriptions-schema-audit.git
 ```
 # Step 2:Navigate to sql directory
 ```bash
