@@ -1,4 +1,4 @@
-==============================================================================
+-- =============================================================================
 -- Enterprise Practice: Elsamag IT Solutions
 -- Author & Lead Technical Consultant: Samuel Chinwendu Agu
 -- Project: SaaS UserSubscriptions Schema Audit Engine
