@@ -48,7 +48,7 @@ LIMIT 5;
 
 
 
-```markdown
+```
 ##  Empirical Performance Metrics & Live Terminal Preview
 
 ```text
@@ -68,7 +68,7 @@ Rows Returned: 5
 | SUB-1004 | CUST-9021 | Enterprise | Active | 2026-01-18 |
 | SUB-1005 | CUST-3310 | Basic | Cancelled | 2026-01-20 |
 
-___
+
 
 ```
 ##  Repository Structure & Directory Layout
@@ -84,9 +84,9 @@ sql-saas-usersubscriptions-schema-audit/
 └── benchmarks/
     └── execution_log.txt
 
-___
 
-```markdown
+
+```
 ##  Step-by-Step Deployment & Execution Guide
 
 ```bash
