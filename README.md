@@ -113,3 +113,9 @@ psql -h localhost -U audit_user -d cloudguard_saas -f src/schema_audit.sql
 > * **Lead Technical Consultant:** Samuel Chinwendu Agu
 > * **GitHub Profile:** [github.com/Elsamag](https://github.com/Elsamag)
 > * **Direct Engagement:** Reach out via GitHub or Upwork for retainer inquiries, custom architecture audits, and database optimization contracts.
+
+
+> ### ⭐ Support & Feedback
+> If this project or repository helped you optimize your infrastructure or solve a technical bottleneck, please give it a **Star (⭐)** on GitHub!
+> 
+> Follow **[Samuel Chinwendu Agu (@Elsamag)](https://github.com/Elsamag)** for upcoming open-source enterprise analytics, cybersecurity, and data engineering tools.
